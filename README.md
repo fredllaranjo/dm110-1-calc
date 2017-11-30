@@ -1,2 +1,22 @@
 # dm110
-Trabalho de conclusÃ£o Desenvolvimento JavaEE - DM110 - PÃ“S-GRADUAÃ‡ÃƒO EM DESENVOLVIMENTO DE APLICAÃ‡Ã•ES PARA DISPOSITIVOS MÃ“VEIS E CLOUD COMPUTING
+Trabalho de conclusão Desenvolvimento JavaEE - DM110 - PÓS-GRADUAÇÃO EM DESENVOLVIMENTO DE APLICAÇÕES PARA DISPOSITIVOS MÓVEIS E CLOUD COMPUTING
+
+## Detalhes da interface REST:
+
+### Somar:
+
+* URL: \<context-root\>/rest/calc/sum
+* Método: GET
+* Parâmetros:
+  * `first` (parâmetro de query)
+  * `second` (parâmetro de query)
+* Resposta: JSON com os parâmetros e o resultado ( `{ "first": "1", "second": "2", "result": "3" }` ).
+
+### Subtrair:
+
+* URL: \<context-root\>/rest/calc/subtract
+* Método: POST
+* Parâmetros:
+  * `first` (parâmetro de formulário)
+  * `second` (parâmetro de formulário)
+* Resposta: JSON com os parâmetros e o resultado ( `{ "first": "1", "second": "2", "result": "-1" }` ).

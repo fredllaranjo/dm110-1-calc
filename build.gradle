@@ -22,5 +22,5 @@ subprojects {
 		testCompile 'junit:junit:4.12'
 		provided 'javax:javaee-api:7.0'
 	}
-	version = '1.0.0-SNAPSHOT'
+	version = '0.1-SNAPSHOT'
 }

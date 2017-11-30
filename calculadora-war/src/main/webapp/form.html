@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculadora</title>
+</head>
+<body>
+	<h1>Calculadora</h1>
+	<h2>Subtração</h2>
+	<form action="rest/calc/subtract" method="POST">
+		<label>First number:</label>
+		<input type="number" name="first">
+		<label>Second number:</label>
+		<input type="number" name="second">
+		<input type="submit" value="=">
+	</form>
+	<h2>Soma</h2>
+	<form action="rest/calc/sum?{first},{second}" method="GET">
+		<label>First number:</label>
+		<input type="number" name="first">
+		<label>Second number:</label>
+		<input type="number" name="second">
+		<input type="submit" value="=">
+	</form>
+</body>
+</html>
