@@ -14,6 +14,7 @@ import javax.ws.rs.core.Response;
  * @author fredlaranjo
  *
  */
+@Path("/calc")
 public interface CalcService {
 
 	@GET

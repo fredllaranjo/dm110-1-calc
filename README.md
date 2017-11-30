@@ -5,7 +5,7 @@ Trabalho de conclusão Desenvolvimento JavaEE - DM110 - PÓS-GRADUAÇÃO EM DESENVOL
 
 ### Somar:
 
-* URL: \<context-root\>/rest/calc/sum
+* URL: /calculadora/rest/calc/sum
 * Método: GET
 * Parâmetros:
   * `first` (parâmetro de query)
@@ -14,7 +14,7 @@ Trabalho de conclusão Desenvolvimento JavaEE - DM110 - PÓS-GRADUAÇÃO EM DESENVOL
 
 ### Subtrair:
 
-* URL: \<context-root\>/rest/calc/subtract
+* URL: /calculadora/rest/calc/subtract
 * Método: POST
 * Parâmetros:
   * `first` (parâmetro de formulário)
